@@ -719,6 +719,19 @@ body{
     border-radius: 35px;
     background: #c70039;
 }
+.ruby-progress{
+    position: absolute;
+    top:10%;
+    left:1%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .4s ease;
+    width:30%;
+    border-radius: 35px;
+    background: #c70039;
+}
 .js-progress{
     position: absolute;
     top:10%;
@@ -1102,7 +1115,7 @@ padding-bottom: 40px;
 .contact-info{
     width: 40%;
     height: 500px;
-    background: url(../images/contact-back.jpg);
+    background: url(../images/about.jpeg);
     background-position: center;
     background-size: cover;
     border-radius: 16px;
